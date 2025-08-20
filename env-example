@@ -1,0 +1,23 @@
+# Jenkins Configuration
+JENKINS_URL=http://your-ip:8080
+JENKINS_USERNAME=your-username
+JENKINS_PASSWORD=your-jenkins-api
+
+# Flask Configuration
+SECRET_KEY=your-SECRET_KEY
+FLASK_ENV=venv
+FLASK_DEBUG=True
+
+# Server Configuration
+HOST=0.0.0.0
+PORT=5000 
+
+# Gemini AI Configuration
+GEMINI_API_KEY=key-here
+
+export PYTHONHTTPSVERIFY=0
+
+
+#Generate the flask secret key usin the command (python -c "import secrets; print(secrets.token_hex(32))") in your windows cmd, if it is linux/macos then use (python -c 'import secrets; print(secrets.token_hex(32))')
+#Better to create a env for python and the use the above command.
+#Create your jenkins api key in your account and security ( http://your-ip:8080/user/name/security/ )
