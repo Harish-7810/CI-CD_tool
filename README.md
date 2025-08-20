@@ -1,6 +1,6 @@
 # Jenkins UI - Alternative Interface
 
-A modern, responsive web-based alternative interface for Jenkins built with Python Flask and Bootstrap. This application provides a clean, user-friendly interface to interact with your Jenkins server while maintaining all the core functionality.
+A modern, responsive web-based alternative interface for Jenkins built with Python Flask and Bootstrap. This application provides a clean, user-friendly interface to interact with your Jenkins server while maintaining all the core functionality, enhanced with **AI-powered repository analysis and automated pipeline generation**.
 
 ## Features
 
